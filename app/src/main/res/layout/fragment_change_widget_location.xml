@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="siri.project.topnearby.ChangeWidgetLocation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvWidgetLocation"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.5"
+                android:text="@string/tvWidgetLocation"
+                android:textSize="25dp"
+                android:gravity="center_horizontal"/>
+
+            <Spinner
+                android:id="@+id/spinnerWidgetLocation"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:spinnerMode="dropdown"
+                android:layout_weight="0.5"
+                android:focusable="true"
+                android:nextFocusDown="@id/btnSaveWidgetLocation"
+                android:layout_gravity="center_horizontal">
+            </Spinner>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <Button
+            android:id="@+id/btnSaveWidgetLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:nextFocusUp="@id/spinnerWidgetLocation"
+            android:text="@string/btnSaveWidgetLocation"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+</FrameLayout>

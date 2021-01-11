@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">TopNearby</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Top Nearby Places</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="default_place_title">Place Title</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_search_fragment">Hello search fragment</string>
+
+    <string name="etSearch_hint">Enter any city, state..</string>
+    <string name="imgBtnSearch_text">Search</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="tvMakeitFav">Is this place your favorite? </string>
+    <string name="btnFav_makeFav">FAV</string>
+    <string name="btnFav_makeUnFav">UNFAV</string>
+
+    <string name="appwidget_text">Favorite Places</string>
+    <string name="appwidget_city"></string>
+    <string name="appwidget_cityPlaces">No Favorite Places</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="tvWidgetLocation">Widget Location: </string>
+    <string name="btnSaveWidgetLocation">SAVE</string>
+
+
+    <string name="tvRatingLabel">Rating:</string>
+    <string name="tvPhoneLabel">Phone:</string>
+    <string name="tvAddressLabel">Address:</string>
+    <string name="tvWebsiteLabel">Website:</string>
+    <string name="tvPlaceIsLabel">Place is:</string>
+    <string name="tvWeekdaysLabel">Open on:</string>
+
+
+
+    <string-array name="place_search_categories">
+        <item>All-Categories</item>
+        <item>Airport</item>
+        <item>Amusement-Parks</item>
+        <item>Atm</item>
+        <item>Bank</item>
+        <item>Bar</item>
+        <item>Cafe</item>
+        <item>Car-Rentals</item>
+        <item>Church</item>
+        <item>Gas-Stations</item>
+        <item>Gym</item>
+        <item>Library</item>
+        <item>Museum</item>
+        <item>Night-Club</item>
+        <item>Park</item>
+        <item>Pharmacy</item>
+        <item>Restaurants</item>
+        <item>Shopping-Malls</item>
+    </string-array>
+
+
+    <string name="contentLocate">Locate</string>
+    <string name="contentSearch">Search</string>
+    <string name="contentLocationImage">Location Image</string>
+    <string name="contentShare">Share</string>
+    <string name="contentHomeImage">Home Image</string>
+    <string name="contentMakeFavorite">Make Favorite</string>
+
+
+</resources>
